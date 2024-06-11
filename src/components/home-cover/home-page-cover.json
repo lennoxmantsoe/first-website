@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_cover_home_page_covers",
+  "info": {
+    "displayName": "Home Page Cover"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "bottom",
+        "right",
+        "left"
+      ],
+      "default": "left"
+    }
+  }
+}
