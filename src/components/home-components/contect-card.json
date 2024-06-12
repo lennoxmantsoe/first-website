@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_home_components_contect_cards",
+  "info": {
+    "displayName": "contectCard"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "email"
+    },
+    "openDays": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "holidays": {
+      "type": "string"
+    },
+    "contectUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.readmore-btn"
+    }
+  }
+}

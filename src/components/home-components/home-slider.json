@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_components_home_sliders",
+  "info": {
+    "displayName": "homeSlider"
+  },
+  "options": {},
+  "attributes": {
+    "Slider": {
+      "displayName": "slideComponetnts",
+      "type": "component",
+      "repeatable": true,
+      "component": "home-components.slide-componetnts"
+    }
+  }
+}

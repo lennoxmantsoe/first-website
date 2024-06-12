@@ -362,6 +362,54 @@ export interface AdminTransferTokenPermission extends Schema.CollectionType {
   };
 }
 
+export interface ApiHomePageHomePage extends Schema.SingleType {
+  collectionName: 'home_pages';
+  info: {
+    singularName: 'home-page';
+    pluralName: 'home-pages';
+    displayName: 'HomePage';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    homePageContent: Attribute.DynamicZone<
+      [
+        'home-components.home-slider',
+        'home-components.event-sectin',
+        'home-components.choose-us-section',
+        'home-components.work-section',
+        'home-components.staircase',
+        'home-components.our-service-section',
+        'home-components.partner-section',
+        'home-components.team-section',
+        'home-components.testimony-section',
+        'home-components.contect-section',
+        'home-components.faq-section',
+        'home-components.join-news-letter-section',
+        'home-components.project-section',
+        'menu.menu-button',
+        'menu.menu-link'
+      ]
+    >;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::home-page.home-page',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::home-page.home-page',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiMainMenuMainMenu extends Schema.SingleType {
   collectionName: 'main_menus';
   info: {
@@ -830,6 +878,7 @@ declare module '@strapi/types' {
       'admin::api-token-permission': AdminApiTokenPermission;
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
+      'api::home-page.home-page': ApiHomePageHomePage;
       'api::main-menu.main-menu': ApiMainMenuMainMenu;
       'plugin::upload.file': PluginUploadFile;
       'plugin::upload.folder': PluginUploadFolder;

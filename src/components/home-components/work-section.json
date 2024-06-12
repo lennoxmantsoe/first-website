@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_components_work_sections",
+  "info": {
+    "displayName": "workSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Heading": {
+      "type": "string"
+    },
+    "staircase": {
+      "displayName": "staircase",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.staircase"
+    }
+  }
+}

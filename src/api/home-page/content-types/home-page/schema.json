@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "homePageContent": {
+      "type": "dynamiczone",
+      "components": [
+        "home-components.home-slider",
+        "home-components.event-sectin",
+        "home-components.choose-us-section",
+        "home-components.work-section",
+        "home-components.staircase",
+        "home-components.our-service-section",
+        "home-components.partner-section",
+        "home-components.team-section",
+        "home-components.testimony-section",
+        "home-components.contect-section",
+        "home-components.faq-section",
+        "home-components.join-news-letter-section",
+        "home-components.project-section",
+        "menu.menu-button",
+        "menu.menu-link"
+      ]
+    }
+  }
+}

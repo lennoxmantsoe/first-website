@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_home_components_choose_us_sections",
+  "info": {
+    "displayName": "chooseUsSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Heading": {
+      "type": "string"
+    },
+    "individualisim": {
+      "displayName": "individualisim",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.individualisim"
+    },
+    "experienced": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.individualisim"
+    },
+    "professionalism": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.individualisim"
+    },
+    "qualified": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.individualisim"
+    }
+  }
+}

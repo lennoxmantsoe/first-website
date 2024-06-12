@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_components_faq_sections",
+  "info": {
+    "displayName": "faqSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Heading": {
+      "type": "string"
+    },
+    "faqs": {
+      "displayName": "faqs",
+      "type": "component",
+      "repeatable": true,
+      "component": "home-components.faqs"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_components_readmore_btns",
+  "info": {
+    "displayName": "readmoreBTN",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

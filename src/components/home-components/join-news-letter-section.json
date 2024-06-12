@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_components_join_news_letter_sections",
+  "info": {
+    "displayName": "joinNewsLetterSection"
+  },
+  "options": {},
+  "attributes": {
+    "JoinNewsLetter": {
+      "displayName": "joinUs",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.join-us"
+    }
+  }
+}

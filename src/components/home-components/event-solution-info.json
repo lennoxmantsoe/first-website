@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_components_event_solution_infos",
+  "info": {
+    "displayName": "EventSolutionInfo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "profesionalTeam": {
+      "displayName": "eventInfo",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.event-info"
+    },
+    "qualityService": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-components.event-info"
+    },
+    "eventReadmoreButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.readmore-btn"
+    }
+  }
+}

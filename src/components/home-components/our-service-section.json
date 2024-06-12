@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_home_components_our_service_sections",
+  "info": {
+    "displayName": "ourServiceSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "wedding": {
+      "displayName": "cardInformation",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.card-information"
+    },
+    "brand": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.card-information"
+    },
+    "soscial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.card-information"
+    }
+  }
+}

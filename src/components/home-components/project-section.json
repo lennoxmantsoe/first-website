@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_components_project_sections",
+  "info": {
+    "displayName": "projectSection"
+  },
+  "options": {},
+  "attributes": {
+    "projects": {
+      "displayName": "project",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.project"
+    },
+    "awards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.project"
+    },
+    "happyClients": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.project"
+    }
+  }
+}

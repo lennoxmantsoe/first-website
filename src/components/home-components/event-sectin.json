@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_components_event_sectins",
+  "info": {
+    "displayName": "eventSectin"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Heading": {
+      "type": "string"
+    },
+    "headingDesc": {
+      "type": "text"
+    },
+    "featImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

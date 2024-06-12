@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_home_components_slide_componetnts",
+  "info": {
+    "displayName": "slideComponetnts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bckImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "readMoreButton": {
+      "displayName": "readmoreBTN",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-components.readmore-btn"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
